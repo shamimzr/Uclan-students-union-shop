@@ -1,1 +1,1 @@
-# project
+# Uclan student’s union shop
