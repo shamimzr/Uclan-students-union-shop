@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>project-cart</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <!-- Nav start -->
+        <nav class="nav">
+            <div class="LeftContainer">
+                <img  class="nav-logo" src="./images/logo.svg" alt="logo"/>
+                <h1 class="nav-title">
+                    Student Shop
+                </h1>
+            </div>
+            <div class="rightContainer">
+                <ul class="nav-list">
+                    <a href="./index.html">
+                        <li class="button-one">
+                            Home
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li class="button-one">
+                            Products
+                        </li>
+                    </a>
+                    <a href="./cart.html">
+                        <li class="button-one">
+                            Cart
+                        </li>
+                    </a>
+                </ul>
+                <!-- menu icon -->
+                <div onclick="clickbtn()" id="menuButton" class="menu-icon-container button-one">
+                        <img class="menu-icon" src="./images/menu-icon.png" alt="menu-icon">
+                </div>
+            </div>
+        </nav>
+        <!-- Nav end -->
+        <!-- mobile-list start -->
+        <div id="mobileList" class="mobile-list-container">
+            <ul class="mobile-list">
+                <a href="./index.html">
+                    <li class="button-one">
+                        Home
+                    </li>
+                </a>
+                <a href="./products.html">
+                    <li class="button-one">
+                        Products
+                    </li>
+                </a>
+                <a href="./cart.html">
+                    <li class="button-one">
+                        Cart
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <!-- mobile-list end -->
+    </header>
+    <!-- main start -->
+    <main id="main" class="main">
+        <!-- cart page -->
+        <section class="cart-page-section">
+            <h1 class="cart-page-title">
+                Shopping Cart
+            </h1>
+            <h3 class="cart-page-info">
+                The items you've added to your shopping cart are:
+            </h3>
+            <div class="cart-page-items-container">
+                <div class="cart-page-title-container">
+                    <h4 class="cart-page-item-title">
+                        Item
+                    </h4>
+                    <h4 class="cart-page-Product-title">
+                        Product
+                    </h4>
+                </div>
+                <!-- cart item start -->
+                <div id="cConteainer">
+                    <div class="cart-item-container">
+                        <div class="cart-item"
+                            <img class="cart-item-image" src="./images/items/hoodies/hoodie (1).jpg" alt="cart-item-image">
+                            <h4 class="cart-item-name">
+                                Bright Green
+                            </h4>
+                        </div>
+                        <div class="cart-item-info">
+                            <h3 class="cart-item-product">
+                                UCLan Hoodie (34)
+                            </h3>
+                            <h4 class="cart-item-price">
+                                $39.99
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- cart item end -->
+            </div>
+        </section>
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
+    <footer id="footer" class="footer">
+        <div class="footer-links">
+            <h3 class="footer-title">Links</h3>
+            <a href="#">
+                <h4>Students'Union</h4>
+            </a>
+        </div>
+        <div class="footer-contact">
+            <h3 class="footer-title">Contact</h3>
+            <h4>Email: suinformation@uclan.ac.uk</h4>
+            <h4>Phone: 01772 89 3000</h4>
+        </div>
+        <div class="footer-location">
+            <h3 class="footer-title">Location</h3>
+            <h4>University of Central Lancashire Students' Union.</h4>
+            <h4>Fylde Road, preston.PR17BY</h4>
+            <h4>Registered in England</h4>
+            <h4>Company Number: 7623917</h4>
+            <h4>Registered Charity Number: 1142616</h4>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- script -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
